@@ -17,7 +17,7 @@ class Test(unittest.TestCase):
         
     def test_conteudo(self):
         # verifica o retorno do conteudo da pagina
-        self.assertEqual(self.result.data.decode('utf-8'), "MBA - Impacta Full Stack Developer - Aula DevSecOps e SRE - Aluno Jairo Medeiros Silva")
+        self.assertEqual(self.result.data.decode('utf-8'), "MBA - Impacta Full Stack Developer - Aula DevSecOps - Aluno Jairo Medeiros Silva")
         
 if __name__ == "__main__":
     print ('INICIANDO OS TESTES')
