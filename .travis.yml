@@ -17,7 +17,7 @@ script:
 deploy:
   provider: heroku
   api_key: $HEROKU_API_KEY
-  edge: true 
+  edge: true
   app: devopslab-jairomedeiros
   on:
     all_branches: true
