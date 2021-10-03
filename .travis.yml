@@ -19,5 +19,5 @@ deploy:
   api_key: $HEROKU_API_KEY
   edge: true
   app: devopslab-jairomedeiros
-#  on:
-#    all_branches: true
+  on:
+    all_branches: true
